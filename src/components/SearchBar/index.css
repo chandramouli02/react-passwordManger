@@ -1,0 +1,66 @@
+.search-bar-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  border-bottom: 1px solid #9ba9eb;
+  padding-bottom: 10px;
+}
+
+.your-passwords > h1 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.your-passwords > p {
+  color: #f8fafc;
+  border: 1px solid #b6c3ca;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 10px;
+}
+.search-bar-container > div {
+  display: flex;
+  align-items: center;
+  align-self: flex-end;
+  padding: 10px;
+}
+.search-bar-container > div > label > img {
+  background-color: #f8fafc;
+  height: 40px;
+  width: auto;
+  padding: 5px;
+  border-right: 1px solid #7683cb;
+  cursor: pointer;
+}
+
+.search-bar-container > div > input {
+  height: 40px;
+  border: 0px solid;
+  outline: none;
+  background-color: #f8fafc;
+  padding-left: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 576px) {
+  .search-bar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .search-bar-container > h1 {
+    font-size: 16px;
+    font-weight: 500;
+    width: 50%;
+  }
+  .search-bar-container > div {
+    width: 40%;
+  }
+  .search-bar-container > div > input {
+    width: 100%;
+  }
+}
